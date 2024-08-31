@@ -3,5 +3,5 @@ layout: home
 title: Welcome to My Website
 ---
 
-# Hello, World!
+# Hi!
 This is my new personal website built with Jekyll and GitHub Pages.
