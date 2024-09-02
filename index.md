@@ -1,11 +1,7 @@
 ---
 layout: home
-title: 欢迎来到我的网站
+title: Welcome!
 ---
-
-# 欢迎！
-
-欢迎来到我的个人网站！
 
 ## 最新文章
 <ul>
