@@ -4,7 +4,7 @@ title: "CV学习笔记"
 permalink: /downloads/
 ---
 
-## PDF 下载目录
+## CV学习笔记
 
 以下是所有可供下载的 PDF 文件：
 
