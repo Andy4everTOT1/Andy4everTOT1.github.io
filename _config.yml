@@ -34,7 +34,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
-permalink: /blog/:title/
+permalink: /:categories/:title/
+
 
 
 # Exclude from processing.

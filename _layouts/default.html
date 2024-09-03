@@ -12,20 +12,17 @@
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/about/">About</a></li>
-                <li><a href="/blog/">Blog</a></li>
-                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/downloads/">CV学习笔记</a></li>
+                <li><a href="/my-novels/">一些小文章</a></li> <!-- 新增这一行 -->
             </ul>
-        </nav>
+        </nav>        
     </header>
     
-    <main>
+    <main class="container">
         {{ content }}
-    </main>
+    </main class="container">
     
-    <footer>
-        <p>&copy; {{ site.time | date: "%Y" }} My Personal Website. All rights reserved.</p>
-    </footer>
+
     
     <script src="{{ '/assets/js/click-effect.js' | relative_url }}"></script>
 </body>

@@ -9,3 +9,5 @@ document.addEventListener('click', function(e) {
         circle.remove();
     }, 500); // 圆圈显示500毫秒后消失
 });
+console.log('JavaScript loaded');
+alert('JavaScript loaded!');

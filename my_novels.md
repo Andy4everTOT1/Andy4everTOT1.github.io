@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 一些小文章
+permalink: /my-novels/
 ---
 
 ## 目录

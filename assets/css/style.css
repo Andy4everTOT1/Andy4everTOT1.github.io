@@ -1,5 +1,7 @@
 /* 设置页面背景 */
 body {
+    padding: 160px;  /* 为页面四周添加50px的无色内边距 */
+    font-family: "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
     background-image: url('/assets/images/background.jpg'); /* 请确保该路径正确并有实际文件 */
     background-size: cover;
     background-position: center;
@@ -7,13 +9,20 @@ body {
     background-attachment: fixed;
 }
 
+h1, h2, h3 {
+    font-family: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+}
+
+p {
+    font-family: "Microsoft YaHei", "Noto Sans CJK SC", "Arial", sans-serif;
+}
 /* 点击特效样式 */
 .click-circle {
     position: absolute;
     width: 20px;
     height: 20px;
     margin: -10px 0 0 -10px;
-    background: rgba(255, 0, 0, 0.5); /* 可以根据需要调整颜色和透明度 */
+    background: rgba(0, 162, 255, 0.553); /* 可以根据需要调整颜色和透明度 */
     border-radius: 50%;
     pointer-events: none;
     animation: clickEffect 0.5s ease-out;
@@ -28,4 +37,38 @@ body {
         transform: scale(5);
         opacity: 0;
     }
+}
+
+/* 导航栏样式 */
+nav {
+    font-family: 'Helvetica', sans-serif; /* 更改导航栏字体 */
+    background-color: rgba(45, 131, 181, 0.3); /* 设置导航栏的背景颜色，半透明 */
+    padding: 10px 0; /* 上下内边距 */
+    margin-bottom: 20px; /* 导航栏与下面内容的间距 */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 50px; /* 调整这个值以改变间距 */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* 移除最后一个导航项的右边距 */
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #ecd5d5; /* 链接文字颜色 */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00d5ffb4; /* 悬停时的颜色变化 */
 }
