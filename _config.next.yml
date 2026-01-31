@@ -1,0 +1,34 @@
+scheme: Muse
+
+darkmode: true
+
+menu:
+  home: / || fa fa-home
+  zh_docs: /zh/docs/ || fa fa-book
+  en_docs: /en/docs/ || fa fa-book
+  archives: /archives/ || fa fa-archive
+  about: /about/ || fa fa-user
+
+menu_settings:
+  icons: true
+  badges: false
+
+sidebar:
+  position: left
+  display: always
+  padding: 18
+  offset: 12
+
+toc:
+  enable: true
+  number: true
+  wrap: false
+  expand_all: false
+  max_depth: 6
+
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+  unescape: false
+  preload: false
